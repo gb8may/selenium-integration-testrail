@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite" verbose="1" group-by-instances="true">
+	<parameter name="environment" value="QA/DEV Environment" />
+	<parameter name="browser" value="CHROME" />
+	<parameter name="url" value="" />
+	<test name="Access DevPortal" >
+		<classes>
+			<class name="sample.tests.SimplePageTest" />
+			<class name="sample.tests.SimplePageTest2" />
+		</classes>
+	</test>	
+</suite>
